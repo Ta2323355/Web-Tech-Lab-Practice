@@ -1,0 +1,49 @@
+/* Table Style */
+table {
+    border-collapse: collapse;
+    width: 50%;
+}
+
+th {
+    background-color: #2e4a6e;
+    color: white;
+    padding: 10px;
+    text-align: left;
+}
+
+td {
+    background-color: #d6e4f0;
+    padding: 10px;
+    border: 1px solid #aaa;
+}
+
+/* Contact Box Style */
+.contact-box {
+    background-color: #6db56d;
+    width: 350px;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+.contact-box h2 {
+    text-align: center;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+input[type="submit"] {
+    display: block;
+    margin: 0 auto;
+    padding: 8px 30px;
+    border: 1px solid #aaa;
+    border-radius: 5px;
+    background-color: #f0f0f0;
+    cursor: pointer;
+}
