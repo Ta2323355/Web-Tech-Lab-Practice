@@ -11,6 +11,6 @@ function calculateAmount() {
     payableAmount.value = 0;
   } else {
     errorMsg.innerHTML = "";
-    payableAmount.value = price * quantity;
+    payableAmount.value = price * quantity:
   }
 }
